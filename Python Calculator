@@ -1,4 +1,5 @@
-    self.text_input = tk.StringVar()
+#CODSOFT
+self.text_input = tk.StringVar()
     
     # Entry widget to show expression/result
     self.entry = tk.Entry(root, textvariable=self.text_input, font=('arial', 20, 'bold'), bd=10, insertwidth=4, width=14, borderwidth=4, relief='ridge', justify='right')
